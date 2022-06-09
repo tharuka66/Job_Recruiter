@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+.btn-outline-success {
+    color: #1e5f8d;
+    border-color: #04a5eb;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #1e5f8d;
+    border-color: #04a5eb;
+}
+
+h1,h2,h3,h5,h6,h4{
+    color: #1e5f8d;
+}
+
+.banner_background{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,95,141,1) 35%, rgba(4,165,235,0.6153054971988796) 100%);
+color: #fff;
+}
+
+.backgroundChange {
+    animation: changeBackgroundColor 7s infinite;
+  }
+
+@keyframes changeBackgroundColor {
+    0% {
+      background-color: #001F3F;
+    }
+    50% {
+      background-color: #FF4136;
+    }
+    100% {
+      background-color: #001F3F;
+    }
+  }
